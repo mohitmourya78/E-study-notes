@@ -7,7 +7,7 @@ const path = require("path")
 
 // define the home page route
 router.get("/", (req, res) => {
-    res.render("notes/C-notes/c.hbs")
+    res.render("notes/C-notes/C.hbs")
 })
 // define the about route
 router.get('/syntax-of-c', (req, res) => {
